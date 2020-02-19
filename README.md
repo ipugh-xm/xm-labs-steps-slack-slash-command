@@ -45,6 +45,11 @@ The **Slack - Parse Slash Command** HTTP Trigger is now available in your custom
 | channel_name | Name of channel where slash command was called |
 | channel_id | ID of channel where slash command was called |
 | text | Text that was put after the slash command |
+| response_url | Temporary webhook URL that can be used to generate messages responses |
+| trigger_id | Short-lived ID that will can be used to open a modal |
+| team_id | Context for where the user was in slack when the command was triggered |
+| team_domain | Slack domain command was called from |
+| enterprise_name | Context for where user is when the command was triggered |
 
 
 ## Example
