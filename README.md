@@ -13,7 +13,7 @@ This step parses the HTTP POST request made by a slack slash command.
 
 # Files
 
-* [SlackSlashSteps.zip](SlackSlashSteps.zip) - Workflow zip file with the step and example flow
+* [SlackSlashCommandSteps.zip](SlackSlashCommandSteps.zip) - Workflow zip file with the step and example flow
 * [Slack.png](/Slack.png) - Slack logo
 
 # How it works
@@ -23,10 +23,10 @@ Accepts a post request, then gives back the user_name, user_id, command, channel
 # Installation
 
 ## Slack Setup
-Requires a custom slack [app]{https://api.slack.com}. Within a slash command in the app, set the Request URL as the initiation URL from xMatters.
+Requires a custom slack [app](https://api.slack.com). Within a slash command in the app, set the Request URL as the initiation URL from xMatters.
 
 ## xMatters Setup
-1. Download the [SlackSlashSteps.zip](SlackSlashSteps.zip) file onto your local computer
+1. Download the [SlackSlashCommandSteps.zip](SlackSlashCommandSteps.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 
